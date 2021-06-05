@@ -4,10 +4,9 @@ const fs = require('fs');
 
 const clientID = '';
 const secretKey = '';
-// let tokenType = '';
+
 
 const outputFile = 'amazon-tags';
-
 
 const auth = async (key, secret) => {
     return axios.post('https://v2.api.uberflip.com/authorize', {
